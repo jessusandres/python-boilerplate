@@ -1,0 +1,20 @@
+[paths]
+source =
+   .
+
+[run]
+branch = true
+parallel = true
+source =
+    .
+omit=
+    */tests/*
+    */*-venv/*
+    */__init__.py
+    */*schema*.py
+
+[report]
+show_missing = true
+precision = 2
+include_namespace_packages = true
+skip_empty = true

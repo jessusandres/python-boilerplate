@@ -1,0 +1,1 @@
+# Required to resolve main file in unit tests
